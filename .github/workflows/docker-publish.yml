@@ -8,7 +8,7 @@ on:
     branches: [ master ]
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: ${{ github.repository_owner }}/libabigail
 jobs:
   build:
     runs-on: ubuntu-latest

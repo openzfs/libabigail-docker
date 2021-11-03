@@ -1,4 +1,4 @@
-FROM ubuntu:rolling
+FROM ubuntu:jammy
 
 WORKDIR /source
 RUN apt-get update \
